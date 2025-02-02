@@ -1,5 +1,6 @@
 body {
   background-image: url("../imagens/background-principal.jpg");
+  backdrop-filter: blur(3px);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -16,6 +17,7 @@ body {
 
 .cabecalho .titulo {
   color: #f1ecff;
+  font-size: 50px;
 }
 
 .cartao {
